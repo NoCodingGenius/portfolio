@@ -159,14 +159,14 @@ p {
  * Styles for the individual list elements within each pricing table
  */
 
- .list-li {
-   background: white;
- }
-
 .pricing-table-list li {
     padding: 0.8em 0;
     background: #FFF;
     border: 1px solid #e7e7e7;
+}
+
+.last-li {
+  background: #009999;
 }
 
 
