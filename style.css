@@ -130,7 +130,7 @@ p {
     margin: 0.2em 0 0;
     font-weight: 100;
 }
-    .pricing-table-price span {
+    .pricing-table-price {
         display: block;
         text-transform: uppercase;
         font-size: 0.2em;
@@ -199,6 +199,12 @@ p {
     .footer a {
         color: #ddd;
     }
+
+.footer-image {
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+}
 
 .about-section {
   padding-top: 10px;
