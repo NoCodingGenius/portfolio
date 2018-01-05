@@ -6,12 +6,6 @@ body {
     color: #526066;
 }
 
-h2, h3 {
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
 p {
     line-height: 1.6em;
 }
@@ -20,9 +14,6 @@ p {
 /*
  * -- Layout Styles --
  */
-.l-content {
-    margin: 0 auto;
-}
 
 .l-box {
     padding: 0.5em 2em;
@@ -32,9 +23,9 @@ p {
  * -- MENU STYLES --
  * Make the menu have a very faint box-shadow.
  */
-.pure-menu {
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-}
+ .pure-menu {
+     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+ }
 
 .pure-menu-link {
     padding: .5em .7em;
@@ -52,7 +43,6 @@ p {
     background: transparent url('https://i.ytimg.com/vi/cpaBJwHTSUQ/maxresdefault.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-
     height: 200px;
     width: 100%;
     margin-bottom: 3em;
@@ -81,7 +71,6 @@ p {
     margin: 0 auto;
  }
 .pricing-tables {
-    margin-bottom: 3.125em;
     text-align: center;
 }
 
@@ -108,7 +97,7 @@ p {
     background: #111;
     color: #fff;
 }
-    .pricing-table-header h2 {
+    .pricing-table-header {
         margin: 0;
         padding-top: 2em;
         font-size: 1em;
@@ -159,14 +148,23 @@ p {
  * Styles for the individual list elements within each pricing table
  */
 
-.pricing-table-list li {
+.pricing-table-list {
+    background: #FFF;
+    border: 1px solid #e7e7e7;
+}
+
+li {
     padding: 0.8em 0;
     background: #FFF;
     border: 1px solid #e7e7e7;
 }
 
 .last-li {
-  background: #009999;
+  background: #6600CC;
+}
+
+.github-p {
+  color: white;
 }
 
 
@@ -204,6 +202,7 @@ p {
   border-radius: 50%;
   height: 65px;
   width: 65px;
+  padding: .5em .7em;
 }
 
 .about-section {
