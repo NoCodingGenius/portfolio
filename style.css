@@ -105,8 +105,8 @@ p {
 
     }
       .pricing-table-header-image {
-        height: 250px;
-        width: 250px;
+        height: 275px;
+        width: 275px;
       }
 
 
@@ -153,7 +153,7 @@ p {
     border: 1px solid #e7e7e7;
 }
 
-li {
+.main-li {
     padding: 0.8em 0;
     background: #FFF;
     border: 1px solid #e7e7e7;
