@@ -4,18 +4,19 @@
  */
 body {
     color: #526066;
+    font-family: 'Lato', sans-serif;
 }
 
 p {
     line-height: 1.6em;
 }
 
-
 /*
  * -- Layout Styles --
  */
 
 .l-box {
+    font-family: 'Lato', sans-serif;
     padding: 0.5em 2em;
 }
 
@@ -136,6 +137,7 @@ p {
  * Each pricing table has a <ul> which is denoted by the .pricing-table-list class
  */
 .pricing-table-list {
+    font-family: 'Lato', sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
